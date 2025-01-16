@@ -1,18 +1,18 @@
 def add(x,y):
     a = x+y
-    return a
+    print(a)
 
 def sub(x,y):
     a = x-y
-    return a
+    print(a)
 
 def mult(x,y):
     a = x*y
-    return a
-
+    print(a)
+    
 def divide(x,y):
     a = x/y
-    return a
+    print(a)
 
 print("Welcome to Bella's Basic Calculator")
 valid_ops = ["+", "-", "*", "/"]
